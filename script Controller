@@ -12,11 +12,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Auth extends CI_Controller
 {
-    public function index()
+function __construct(){
+		parent::__construct();
+    public function belajar basic()
     {
        echo "Belajar python";
+       echo "Belajar desiogn poster";
+       echo "Belajar design logo";
+       echo "Belajar buat game tikus tanah";
     }
-    public function registration()
+    public function semangat()
     {
       echo " Never give up!";
     }
