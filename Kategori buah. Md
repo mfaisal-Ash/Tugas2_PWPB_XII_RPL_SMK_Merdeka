@@ -18,3 +18,42 @@ D
 P
 10. Pisang
 11. Pepaya
+
+Assalamualaikum.
+disini saya akan implementasikan sebuah controller pada codeigniter.
+
+untuk membuat controller pada condeigniter kita perlu membuat file application/controller
+untuk mempermudah kita mengedit atau mengolah, tidak usah susah susah mencari lagi dari
+beberapa tumpukan data maupun file.
+di sini saya ambil contoh dari sebuah bahasa pemrograman PHP yang saat ini saya pelajari.
+berikut contohnya:
+
+<?php
+defined('BASEPATH') or exit('No direct script access allowed');
+
+class Auth extends CI_Controller
+{
+function __construct(){
+		parent::__construct();
+    public function belajar basic()
+    {
+       echo "Belajar python";
+       echo "Belajar desiogn poster";
+       echo "Belajar design logo";
+       echo "Belajar buat game tikus tanah";
+    }
+    public function semangat()
+    {
+      echo " Never give up!";
+    }
+}
+
+controller adalh sebuah pengontrol suatu website dari beberapa
+fungsi, yaitu.
+controller berfungsi untuk memproses pencarian atau menuju link dari link lainnya.
+dan masih banyk lagi fungsinya.
+
+fungsi dari sebuah class adalah untuk menjalankan sebuah link
+
+sekian terima kasih, itu yang saya bisa implementasikan
+wasslamualaikum.
